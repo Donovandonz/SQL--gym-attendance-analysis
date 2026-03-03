@@ -33,6 +33,25 @@ This SQL project analyzes gym attendance, workout patterns, and member behavior 
 
 ---
 
+## 📁 Database Structure
+
+### Main Table: `gym_staging`
+
+| Column | Description | Data Type |
+|--------|-------------|-----------|
+| member_id | Unique member identifier | INT |
+| visit_date | Date of visit | DATE |
+| age | Member age | INT |
+| gender | Member gender | VARCHAR |
+| membership_type | Type of membership | VARCHAR |
+| workout_type | Type of workout | VARCHAR |
+| workout_duration_minutes | Duration in minutes | INT |
+| calories_burned | Calories burned | INT |
+| check_in_time | Time of check-in | TIME |
+| attendance_status | Present/Absent | VARCHAR |
+
+---
+
 ## 📊 Key Business Questions Answered
 
 | # | Question | SQL File |
